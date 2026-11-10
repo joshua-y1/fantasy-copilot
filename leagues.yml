@@ -1,0 +1,11 @@
+leagues:
+  - platform: espn
+    league_id: "2123524863"
+    my_team_id: 7
+    season: 2027
+    league_name: "jckc"
+  - platform: espn
+    league_id: "386303891"
+    my_team_id: 15
+    season: 2027
+    league_name: "FAP Basketball 🇨🇲"
