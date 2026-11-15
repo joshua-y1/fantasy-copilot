@@ -24,3 +24,7 @@ print(league.settings.scoring_type if hasattr(league.settings, "scoring_type") e
 print("\nTop free agents:")
 for player in league.free_agents(size=10):
     print(player.name, player.position, player.proTeam, player.injuryStatus)
+    
+print("\nSettings attributes:")
+for key, value in league.settings.__dict__.items():
+    print(key, "->", value)

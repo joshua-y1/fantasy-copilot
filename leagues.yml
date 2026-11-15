@@ -4,8 +4,10 @@ leagues:
     my_team_id: 7
     season: 2027
     league_name: "jckc"
+    lineup_slots: {PG: 1, SG: 1, SF: 1, PF: 1, C: 1, G: 1, F: 1, UTIL: 3, BE: 4, IR: 1}
   - platform: espn
     league_id: "386303891"
     my_team_id: 15
     season: 2027
     league_name: "FAP Basketball 🇨🇲"
+    lineup_slots: {PG: 1, SG: 1, SF: 1, PF: 1, C: 1, G: 1, F: 1, UTIL: 3, BE: 3, IR: 1}
