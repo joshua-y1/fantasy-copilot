@@ -28,3 +28,5 @@ for player in league.free_agents(size=10):
 print("\nSettings attributes:")
 for key, value in league.settings.__dict__.items():
     print(key, "->", value)
+    
+print(my_team.roster[0].__dict__)
